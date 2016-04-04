@@ -4,6 +4,8 @@ import boto3.session
 import botocore_paste
 
 
+__version__ = '0.1'
+
 def normalize_config(config, prefix='boto3.', **kwargs):
     """
     :type config: dict
