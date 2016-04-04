@@ -3,3 +3,4 @@ include CHANGES.txt
 include LICENSE.txt
 include MANIFEST.in
 include .gitignore
+include boto3_paste/tests/*.ini

@@ -29,7 +29,7 @@ def session_from_config(config, prefix='boto3.', **kwargs):
     """
     :type config: dict
     :type prefix: str
-    :rtype: dict
+    :rtype: boto3.session.Session
     """
     normalized = normalize_config(config, prefix, **kwargs)
     botocore_config = normalized.pop('botocore', {})
